@@ -5,8 +5,12 @@ number = gets.chomp.to_i
 	if number < 0
 	 print 'Votre nombre n’est pas positif.'
 else
-  1.upto(number) do |k|
-    k.times { print "#" }
+
+  1.upto (number) while |k|
+     
+     k.times { print "#" }
+    
     puts
+  
   end
 end 
