@@ -1,4 +1,4 @@
-puts "Donnez moi votre année de naissance"
+puts "oviana ny taona nahaterahanao"
 
 y = gets.chomp
 x = y.to_i
