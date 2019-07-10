@@ -1,7 +1,11 @@
-puts "Bonjour, vous etes ne en quel annee? "
-date_naiss = gets.chomp
-d = date_naiss.to_i
+puts "votre année de naissance svp!"
+année = gets.chomp.to_i
+n=0
+p = 0
+for n in (année..2019)
+puts "en année #{n} ,vous aurez #{p}ans"
 
-for count in (d..2018)
- puts count "il y a #{}"
-  end
+n+=1
+p+=1
+
+end
