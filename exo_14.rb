@@ -1,8 +1,10 @@
-puts "Donne moi un nombre"
+puts "Donne moi in nombre"
 print ">"
-number = gets.chomp
-nbr = number.to_i
-puts "Je commence mon décompte, tiens toi prêt :"
-for count in (nbr..0)
-puts count
+nbr = gets.chomp.to_i
+puts "Tiens toi prêt, je commence"
+while nbr > 0
+	nbr -= 1
+
+puts "#{nbr}"
+
 end
